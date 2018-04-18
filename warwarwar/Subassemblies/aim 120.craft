@@ -1,0 +1,303 @@
+ship = aim 120
+version = 1.2.2
+description = No Description.
+type = None
+size = 1.39817119,1.39783859,5.26221323
+PART
+{
+	part = trussPiece3x_4292496714
+	partName = Part
+	pos = 0.218279079,7.57641363,3.43348837
+	attPos = 0,0,0
+	attPos0 = 0.218279079,7.57641363,3.43348837
+	rot = 0.707106829,0,0,0.707106829
+	attRot = 0,0,0,1
+	attRot0 = 0.707106769,0,0,0.707106769
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = bahaAim120_4292462270
+	link = bahaAim120_4292459238
+	link = bahaAim120_4292457420
+	link = bahaAim120_4292455342
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+}
+PART
+{
+	part = bahaAim120_4292462270
+	partName = Part
+	pos = 0.633341789,7.57641411,4.81720877
+	attPos = 0,0,0
+	attPos0 = 0.41506052,1.38371837,-2.38418664E-07
+	rot = 2.08616257E-07,2.98023224E-08,-0.707106709,-0.707106948
+	attRot = 0,0,0,1
+	attRot0 = 0.500000179,-0.499999881,-0.5,-0.499999911
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	srfN = srfAttach,trussPiece3x_4292496714
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = MissileLauncher
+		isEnabled = True
+		decoupleForward = False
+		decoupleSpeed = 5
+		cruiseAltitude = 500
+		shortName = AIM-120
+		maxStaticLaunchRange = 7500
+		minStaticLaunchRange = 500
+		maxOffBoresight = 50
+		DetonationDistance = 0
+		dropTime = 0.550000012
+		inCargoBay = False
+		detonationTime = 2
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			AGFire
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = bahaAim120_4292459238
+	partName = Part
+	pos = 0.218278602,7.99337006,4.90256882
+	attPos = 0,0,0
+	attPos0 = -3.57627869E-07,1.46907926,-0.416955024
+	rot = 3.42145619E-08,2.08616257E-07,-1.00000012,-7.63614167E-08
+	attRot = 0,0,0,1
+	attRot0 = 9.99268934E-08,-0.707106709,-0.707106948,-2.92039601E-08
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	srfN = srfAttach,trussPiece3x_4292496714
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = MissileLauncher
+		isEnabled = True
+		decoupleForward = False
+		decoupleSpeed = 5
+		cruiseAltitude = 500
+		shortName = AIM-120
+		maxStaticLaunchRange = 7500
+		minStaticLaunchRange = 500
+		maxOffBoresight = 50
+		DetonationDistance = 0
+		dropTime = 0.550000012
+		inCargoBay = False
+		detonationTime = 2
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			AGFire
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = bahaAim120_4292457420
+	partName = Part
+	pos = 0.218279079,7.16184282,4.94807053
+	attPos = 0,0,0
+	attPos0 = -5.36441803E-07,1.51458049,0.414569646
+	rot = 2.08616257E-07,-4.21468549E-08,-1.05367135E-07,1.00000012
+	attRot = 0,0,0,1
+	attRot0 = -0.707106709,-1.04308128E-07,-4.47034836E-08,0.707106948
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	srfN = srfAttach,trussPiece3x_4292496714
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = MissileLauncher
+		isEnabled = True
+		decoupleForward = False
+		decoupleSpeed = 5
+		cruiseAltitude = 500
+		shortName = AIM-120
+		maxStaticLaunchRange = 7500
+		minStaticLaunchRange = 500
+		maxOffBoresight = 50
+		DetonationDistance = 0
+		dropTime = 0.550000012
+		inCargoBay = False
+		detonationTime = 2
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			AGFire
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = bahaAim120_4292455342
+	partName = Part
+	pos = -0.198518679,7.57641411,5.47146273
+	attPos = 0,0,0
+	attPos0 = -0.416796803,2.03797221,-2.38418664E-07
+	rot = 2.08616257E-07,2.98023224E-08,-0.707106829,0.707106948
+	attRot = 0,0,0,1
+	attRot0 = -0.499999911,-0.5,-0.499999881,0.500000179
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	srfN = srfAttach,trussPiece3x_4292496714
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = MissileLauncher
+		isEnabled = True
+		decoupleForward = False
+		decoupleSpeed = 5
+		cruiseAltitude = 500
+		shortName = AIM-120
+		maxStaticLaunchRange = 7500
+		minStaticLaunchRange = 500
+		maxOffBoresight = 50
+		DetonationDistance = 0
+		dropTime = 0.550000012
+		inCargoBay = False
+		detonationTime = 2
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			AGFire
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
